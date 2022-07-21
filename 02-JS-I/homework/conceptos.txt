@@ -1,0 +1,26 @@
+Variables
+Strings
+Funciones (argumentos, return)
+Declaraciones if
+Valores booleanos (true, false)
+
+1 - Variables
+
+Una variable es un dato numerico, alfanumerico, booleano, logicos etc que se almacena en la memoria de un ordenador y ese dato puede cambiar a lo largo de la ejecucion de un programa. 
+
+2 - Strings 
+
+Es un tipo de dato de variable que solo acepta valores alfanumericos y que se identifican con "" o '' 
+
+3 - Funciones
+
+Las funciones son declaraciones de codigo para que se realice alguna operacion especifica.
+Puede aceptar o no argumentos para ser usados en la funcion y retornan un valor de salida. 
+
+4 - Declaraciones if
+
+Una declaracion if es un arbol  de desicion, el cual dependiendo del valor ingresado va para un lado u otro. 
+
+5 - Valores booleanos (true, false)
+
+Son valores que aceptan solo dos estados 1 o 0 o verdadero y falso
