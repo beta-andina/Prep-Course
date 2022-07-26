@@ -106,7 +106,7 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-  return numero == 10 ||numero == 5 ? true : false
+  return numero === 10 ||numero === 5 ? true : false
 
 }
 
@@ -140,9 +140,9 @@ function fizzBuzz(numero) {
 
   if (numero % 3 === 0 && numero % 5 === 0) {
     return 'fizzbuzz';
-  }else if(numero % 5 == 0){
+  }else if(numero % 5 === 0){
     return 'buzz';
-  }else if(numero % 3 == 0){
+  }else if(numero % 3 === 0){
     return 'fizz';
   }else{
     return numero;
@@ -158,7 +158,7 @@ function operadoresLogicos(num1, num2, num3) {
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
 
-  if(num1 == 0 || num2 == 0 || num3 == 0){
+  if(num1 === 0 || num2 === 0 || num3 === 0){
     return 'Error';
   }else if(num1 < 0 || num2 < 0 || num3 < 0){
     return 'Hay negativos';
@@ -182,9 +182,9 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
 
-  if (numero == 0 || numero == 1 || numero == 4) return false;
+  if (numero === 0 || numero === 1 || numero === 4) return false;
 	for (let i = 2; i < numero / 2; i++) {
-		if (numero % i == 0){
+		if (numero % i === 0){
       return false;
     } 
 	}
@@ -226,7 +226,7 @@ function tieneTresDigitos(numero){
   //Escribe tu código aquí
 
   num = numero.toString() // Convierto el numero a String
-  return num.length == 3 ? true : false
+  return num.length === 3 ? true : false
   
 }
 
